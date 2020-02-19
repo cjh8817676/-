@@ -1,0 +1,46 @@
+package test_p27;
+
+
+public class test_p27 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Car car1;
+		// ミ穝ン碞穦㊣篶
+		car1 = new Car();//㊣⊿Τ把计篶Α
+		
+		car1.show();
+		
+		Car car2;
+		car2 = new Car(1234,25.0);//㊣ㄢ把计篶Α
+		
+		car2.show();
+	}
+
+}
+class Car
+{
+	//Car 摸
+	private int num;  //场礚猭钡
+	private double gas;
+	
+	//笲衡更
+	public Car()  //砆㊣篶Α篶
+	{
+		num = 0;
+		gas = 0.0;
+		System.out.println("ネ玻ó");
+	}
+	public Car(int n, double g)  //砆㊣篶Α篶
+	{
+		num = 0;
+		gas = 0.0;
+		System.out.println("ネ玻ó"+num+"═猳秖"+gas+"ó");
+	}
+	
+	public void show()
+	{
+		System.out.println("ó腹琌:"+ this.num);
+		System.out.println("═ó猳秖:"+ this.gas);
+	}
+}
